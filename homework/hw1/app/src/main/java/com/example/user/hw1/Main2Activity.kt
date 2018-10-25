@@ -91,10 +91,6 @@ class Main2Activity : AppCompatActivity() {
         var stringWord: String = ""
         var i =0
         while(i<ind.toString().length){
-            if(ind==1000){
-                stringWord="тысяча"
-                break;
-            }
 
             if(ind.div(100)!=0){
 
@@ -112,7 +108,7 @@ class Main2Activity : AppCompatActivity() {
                     }
                     break;
                 }
-            i++
+            //i++
         }
         return stringWord
     }
